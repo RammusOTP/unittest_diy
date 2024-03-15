@@ -3,8 +3,8 @@ import types
 from inspect import getmembers, isfunction
 import sys
 import os
-from Lib.ejptest import colours
-from Lib.ejptest.expectation import FailedExpectationError
+from . import colours
+from .expectation import FailedExpectationError
 
 
 class Runner:

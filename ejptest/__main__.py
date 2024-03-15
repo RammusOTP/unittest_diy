@@ -1,3 +1,3 @@
-from Lib.ejptest import runner
+from . import runner
 
 raise SystemExit(runner.main())

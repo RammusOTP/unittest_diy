@@ -1,4 +1,4 @@
-from Lib.ejptest.expectation import expect
+from ejptest.expectation import expect
 
 
 def test_include_pass():
